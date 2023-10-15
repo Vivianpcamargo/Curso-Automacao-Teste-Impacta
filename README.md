@@ -1,71 +1,44 @@
-# :bookmark: Template-Documentation-Course
+# :bookmark: Curso-Automacao-Teste-Impacta
 
-:label: Tecnologia Principal: 
-<br> :label: Tecnologia Secundária: 
-<br> :bricks: Framework: 
-<br> :classical_building: Software:
-<br> :luggage: Banco de Dados: 
-<br> :test_tube: Testes Unitários: 
-<br> :cloud: Nuvem: 
-<br> :page_facing_up: Padronização: 
-<br> :book: Documentação: <a href=''> Figma </a> e <a href=''> Postman
+:label: Tecnologia Principal: Python
+<br> :page_facing_up: Padronização: pep8
 
 ## :dart: Sobre
 
-Breve descrição sobre o projeto
+Curso sobre testes automatizados.
 
 ## :building_construction: Instalação do projeto
 
-### :classical_building: Rodar o Docker
-
-- explicação do comando:
+- instalação do python na máquina:
 ```
-comando
-```
-
-### :luggage: Acesso ao banco de dados
-
-- explicação do comando:
-```
-comando
-```
-
-#### :construction: Acesso ao drivers do SQLite
-
-- explicação do comando:
-```
-comando
-```
-
-### :cloud: Acesso a nuvem
-
-- explicação do comando:
-```
-comando
+sudo apt install python3-pip
 ```
 
 ## :bar_chart: Rodando
 
-### :test_tube: Exemplos de uso
-
-- explicação do comando:
+- executar arquivo:
 ```
-comando
+python3 -m unittest <nome-arquivo>.py
 ```
 
-## :door: Portas do Projeto
+#### :test_tube: Ambiente Virtual de Desenvolvimento
 
-#### :label: Aplicação
+- iniciar:
+```
+python3 -m venv tdd
+```
 
-url
+- ativar:
+```
+source tdd/bin/activate
+```
 
-`/livros`
-* `GET /livros`
-* `GET /livros/:id`
-* `POST /livros`
-* `PUT /livros/:id`
-* `DELETE /livros/:id`
+- executar arquivo:
+```
+python3 tdd/<nome-arquivo>.py
+```
 
-#### :label: Banco de Dados
-
-url
+- desativar:
+```
+deactivate
+```
