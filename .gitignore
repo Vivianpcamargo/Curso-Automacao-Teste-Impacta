@@ -1,3 +1,4 @@
 # Environments
 tdd/
 */__pycache__
+*.py[cod]
