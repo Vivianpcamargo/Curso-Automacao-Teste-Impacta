@@ -16,11 +16,6 @@ sudo apt install python3-pip
 
 ## :bar_chart: Rodando
 
-- executar arquivo:
-```
-python3 -m unittest <nome-arquivo>.py
-```
-
 #### :test_tube: Ambiente Virtual de Desenvolvimento
 
 - iniciar:
@@ -41,4 +36,23 @@ python3 tdd/<nome-arquivo>.py
 - desativar:
 ```
 deactivate
+```
+
+#### :test_tube: Unittest
+
+- executar arquivo:
+```
+python3 -m unittest <nome-arquivo>.py
+```
+
+#### :test_tube: Pytest
+
+- instalar pytest:
+```
+pip3 install pytest
+```
+
+- executar arquivo:
+```
+pytest <nome-arquivo>.py
 ```
