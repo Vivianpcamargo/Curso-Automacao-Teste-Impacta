@@ -1,6 +1,7 @@
 # :bookmark: Curso-Automacao-Teste-Impacta
 
 :label: Tecnologia Principal: Python
+<br> :test_tube: Testes Unitários: Unittest, Pytest
 <br> :page_facing_up: Padronização: pep8
 
 ## :dart: Sobre
